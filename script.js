@@ -1,6 +1,6 @@
 //your code here
 
-function swap(){
+function swapTheme(){
 	var btn = document.getElementById("swap");
     var main = document.getElementById("app");
     main.className = "night";

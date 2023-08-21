@@ -3,7 +3,7 @@
 function swapTheme(){
 	var btn = document.getElementById("swap");
     var main = document.getElementById("app");
-    main.className = "night";
-    btn.className = "button_night";
+    main.classList.add("night");
+    btn.classList.add("button_night");
 
 }

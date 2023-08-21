@@ -6,7 +6,7 @@ btn.addEventListener("click",swap);
 
 function swap(){
     var div = document.getElementById("app");
-    div.classList.add("night");
-    btn.classList.add("button_night");
+    div.className = "night";
+    btn.className = "button_night";
 
 }
